@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e10732ff.css",
+    "main.js": "/static/js/main.e337e0a3.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/koovsimg.png": "/static/media/koovsimg.d989123c7ce767f95ce3.png",
+    "static/media/faasosimg.png": "/static/media/faasosimg.817b1ec9b864a2308e90.png",
+    "static/media/bluemercury.png": "/static/media/bluemercury.5ac25dbd1ec41121bd8f.png",
+    "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/mailz.jpeg": "/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/bootstrapimg.jpg": "/static/media/bootstrapimg.bd2f57da752e7e23a69e.jpg",
+    "static/media/updatedRamana.jpg": "/static/media/updatedRamana.6b4e52651c5cf9dd32a1.jpg",
+    "static/media/icons8-react-native.svg": "/static/media/icons8-react-native.d80e7ac1c1c16521855e88604f69c195.svg",
+    "static/media/icons8-nodejs.svg": "/static/media/icons8-nodejs.656e25dd3485d782377959303ddd8f92.svg",
+    "static/media/icons8-github (2).svg": "/static/media/icons8-github (2).895050b20cdc3aefa3177ef8508b789b.svg",
+    "static/media/icons8-linkedin (2).svg": "/static/media/icons8-linkedin (2).cb73502a448b9dd149354936acea6adf.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-github.svg": "/static/media/icons8-github.2313f6066f27488414053abdb5325607.svg",
+    "static/media/icons8-javascript-logo.svg": "/static/media/icons8-javascript-logo.c44ca070b55344b816e4855973b3aba8.svg",
+    "static/media/icons8-css3.svg": "/static/media/icons8-css3.e372ed0e706aa6d04b0a6df274b1c32f.svg",
+    "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.7260a0dd4550bb5dd809de5259c592e8.svg",
+    "main.e10732ff.css.map": "/static/css/main.e10732ff.css.map",
+    "main.e337e0a3.js.map": "/static/js/main.e337e0a3.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e10732ff.css",
+    "static/js/main.e337e0a3.js"
+  ]
+}
