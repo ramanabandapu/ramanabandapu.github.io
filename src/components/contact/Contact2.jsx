@@ -4,9 +4,16 @@ import githubimg from "../../assets/Home/icons8-github (2).svg";
 import linkedinimg from "../../assets/Home/icons8-linkedin (2).svg";
 import handupimg from "../../assets/Home/hand-up (1).png";
 
+
+
 export default function Contact2() {
 	return (
 		<div className="contact" id="contact">
+			<img
+        src="https://ghchart.rshah.org/021F34/ramanabandapu"
+        alt="fdsdf"
+        style={{ width: "90%", height:"200px", display: "block", margin: "auto", marginTop:"100px"}}
+      />
 			<div className="contact-heading">
 				<h1> Contact Me</h1>
 

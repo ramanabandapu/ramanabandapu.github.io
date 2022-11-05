@@ -48,24 +48,22 @@ export default function Contact(props) {
 
   return (
     <div className="contact" id="contact">
+     
       <div className="contact-heading">
-       
         <h1> Contact Me</h1>
-           
-       <h5>Let's keep in touch</h5>
 
-       <div className='dash'>
+        <h5>Let's keep in touch</h5>
 
-       <div className='hr-line'></div ><div className='hr-line-orange'></div><div className='hr-line'></div>
-
-           </div>
-      
-
+        <div className="dash">
+          <div className="hr-line"></div>
+          <div className="hr-line-orange"></div>
+          <div className="hr-line"></div>
+        </div>
       </div>
       <div className="contact-container">
         <div className="contact-images">
           <div className="contact-social">
-              <h1 className="contact-images-heading">Get In Touch</h1>
+            <h1 className="contact-images-heading">Get In Touch</h1>
             <div className="colz">
               <div className="colz-icon">
                 <a href="#">
@@ -82,10 +80,9 @@ export default function Contact(props) {
             </div>
           </div>
           <div className="contact-mailz">
-            <h3>Send Your Email Here !</h3>  
-          <img src={mailz} alt="" />
+            <h3>Send Your Email Here !</h3>
+            <img src={mailz} alt="" />
           </div>
-         
         </div>
         <div className="contact-form">
           <form
@@ -97,51 +94,44 @@ export default function Contact(props) {
             }}
             action=""
           >
-            <label htmlFor="">
-              Name
-              </label>
-              <br />
-              <input
-                className="inputbox"
-                onChange={handleChange}
-                name="title"
-                type="text"
-                placeholder="Your Name"
-              />
-            
+            <label htmlFor="">Name</label>
             <br />
-            <label htmlFor="">
-              Email
-              </label>
-              <br />
-              <input
-                className="inputbox"
-                onChange={handleChange}
-                name="ingredients"
-                type="text"
-                placeholder="Your Email"
-              />
-           
+            <input
+              className="inputbox"
+              onChange={handleChange}
+              name="title"
+              type="text"
+              placeholder="Your Name"
+            />
+
             <br />
-            <label htmlFor="">
-              Message
-              </label>
-              <br />
-              <input
-                className="inputbox"
-                onChange={handleChange}
-                name="time"
-                type="textarea"
-                placeholder="Your Message"
-              />
-          
+            <label htmlFor="">Email</label>
+            <br />
+            <input
+              className="inputbox"
+              onChange={handleChange}
+              name="ingredients"
+              type="text"
+              placeholder="Your Email"
+            />
+
+            <br />
+            <label htmlFor="">Message</label>
+            <br />
+            <input
+              className="inputbox"
+              onChange={handleChange}
+              name="time"
+              type="textarea"
+              placeholder="Your Message"
+            />
 
             <br />
 
             <button className="btn primary-btn send-btn-size">
-                  {""}
-                  Send 	<i class="fa">&#xf1d9;</i>	{" "}
-              </button>
+              {""}
+              Send <i class="fa">&#xf1d9;</i>{" "}
+            </button>
           </form>
         </div>
       </div>
