@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import resume from "../../src/assets/Ramana_Bandapu_Resume.pdf"
 export default function About() {
 	return (
 		<div className="about" id="about">
@@ -59,9 +60,9 @@ export default function About() {
 									Hire Me{" "}
 								</button>
 							</a>
-							<a href="Ramana_Bandapu_Resume_01-05-2022-13-05-39.pdf">
-								<button className="btn highlighted-btn">Get Resume</button>
-							</a>
+							<a target={"_blank"} href={resume} download>
+                  <button className="btn highlighted-btn" onClick={() => {window.open(resume)}}>Get Resume</button>
+				  </a>
 						</div>
 					</div>
 				</div>

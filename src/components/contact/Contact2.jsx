@@ -3,17 +3,42 @@ import "./Contact.css";
 import githubimg from "../../assets/Home/icons8-github (2).svg";
 import linkedinimg from "../../assets/Home/icons8-linkedin (2).svg";
 import handupimg from "../../assets/Home/hand-up (1).png";
+import GitHubCalendar from "react-github-calendar";
 
 
 
 export default function Contact2() {
 	return (
 		<div className="contact" id="contact">
-			<img
+			{/* <img
         src="https://ghchart.rshah.org/021F34/ramanabandapu"
         alt="fdsdf"
         style={{ width: "90%", height:"200px", display: "block", margin: "auto", marginTop:"100px"}}
-      />
+      /> */}
+	  	<div className="contact-heading">
+				<h1> Github Stats</h1>
+
+				{/* <h5>Let's keep in touch</h5> */}
+
+				<div className="dash">
+					<div className="hr-line"></div>
+					<div className="hr-line-orange"></div>
+					<div className="hr-line"></div>
+				</div>
+			</div>
+
+<GitHubCalendar style={{ margin: "auto", marginTop:"50px"}}
+          blockSize={18} username="ramanabandapu" year={new Date().getFullYear()}/>
+		  
+		  <img
+		  align="center"
+		  src="https://github-readme-streak-stats.herokuapp.com/?user=ramanabandapu&theme=dark"
+		  alt="Ramana"
+		/>
+
+{/* --------------------------------------------------------------------------------------------------------- */}
+
+
 			<div className="contact-heading">
 				<h1> Contact Me</h1>
 

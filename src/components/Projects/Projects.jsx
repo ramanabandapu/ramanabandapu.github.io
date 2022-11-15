@@ -27,6 +27,11 @@ function Projects() {
               // gap: "20px",
             }}
           >
+
+
+            {/* -----------------------------KINDMEAL-------------------------------------- */}
+
+
             <Col md={6} className="project-card">
               <ProjectCards
                 imgPath={koovsimg}
@@ -49,7 +54,7 @@ function Projects() {
                 link2="https://github.com/ramanabandapu/KindMeal---clone/tree/main/kindmeal-clone-project-master"
               />
             </Col>
-
+{/* ------------------------------ LOVODA ----------------------------------------------------- */}
             <Col md={6} className="project-card">
               <ProjectCards
                 imgPath={faasosimg}

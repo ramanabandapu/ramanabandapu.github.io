@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Typical from "react-typical" 
 import "./Profile.css"
-
+import resume from "../../../assets/Ramana_Bandapu_Resume.pdf"
 
 export default function Profile() {
   return (
@@ -60,9 +60,9 @@ export default function Profile() {
                   Hire Me{" "}
               </button>
             </a>
-              <a href="https://drive.google.com/file/d/14q5_6vV3iVIXihyaKm-4DRfceGkvtmSX/view?usp=sharing ">
-                  <button className="btn highlighted-btn">Get Resume</button>
-                  {/* https://drive.google.com/file/d/14q5_6vV3iVIXihyaKm-4DRfceGkvtmSX/view?usp=sharing */}
+              <a target={"_blank"} href={resume} download>
+                  <button className="btn highlighted-btn" onClick={() => {window.open(resume)}}>Get Resume</button>
+                 
               </a>
           </div>
         </div>

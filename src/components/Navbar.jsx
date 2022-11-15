@@ -16,6 +16,9 @@ export const Navbar = () => {
 				<a href="#contact" style={{ margin: "10px" }}>
 					Contact Me
 				</a>
+				<a href="#resume" style={{ margin: "10px" }}>
+					Resume
+				</a>
 			</div>
 		</div>
 	);
