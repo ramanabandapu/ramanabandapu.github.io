@@ -76,14 +76,14 @@ export default function Contact2() {
 					</div>
 				</div>
 			</div>
-			<div className="site-manufacturer">
+			{/* <div className="site-manufacturer">
 				<h4 style={{ color: "hwb(2 5% 81%);" }}>
 					<strong>Design inspired from:</strong>&nbsp;&nbsp;
 					<span style={{ color: "hwb(2 5% 81%);" }}>
 						Pankaj Kumar<strong></strong>
 					</span>
 				</h4>
-			</div>
+			</div> */}
 			<div className="handup-div">
 				<button onClick={() => window.scrollTo(0, 0)}>
 					<img className="handup-img" src={handupimg} alt="" />

@@ -60,7 +60,7 @@ export default function About() {
 									Hire Me{" "}
 								</button>
 							</a>
-							<a target={"_blank"} href={resume} download>
+							<a target={"_blank"} rel="noreferrer" href={resume} download>
                   <button className="btn highlighted-btn" onClick={() => {window.open(resume)}}>Get Resume</button>
 				  </a>
 						</div>
