@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.e10732ff.css",
-    "main.js": "/static/js/main.836b7714.js",
+    "main.js": "/static/js/main.7881802f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/koovsimg.png": "/static/media/koovsimg.d989123c7ce767f95ce3.png",
-    "static/media/faasosimg.png": "/static/media/faasosimg.817b1ec9b864a2308e90.png",
+    "static/media/careathome.png": "/static/media/careathome.f4087d8be5b8580b84b0.png",
+    "static/media/kindmeal.png": "/static/media/kindmeal.24c43fb4d4e2a21057af.png",
     "static/media/bluemercury.png": "/static/media/bluemercury.5ac25dbd1ec41121bd8f.png",
+    "static/media/ketto.png": "/static/media/ketto.74694833c6ef6b793ad1.png",
     "static/media/Ramana_Bandapu_Resume.pdf": "/static/media/Ramana_Bandapu_Resume.db2622a43d5163e438a4.pdf",
     "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -27,11 +28,11 @@
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.e372ed0e706aa6d04b0a6df274b1c32f.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.7260a0dd4550bb5dd809de5259c592e8.svg",
     "main.e10732ff.css.map": "/static/css/main.e10732ff.css.map",
-    "main.836b7714.js.map": "/static/js/main.836b7714.js.map",
+    "main.7881802f.js.map": "/static/js/main.7881802f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e10732ff.css",
-    "static/js/main.836b7714.js"
+    "static/js/main.7881802f.js"
   ]
 }
